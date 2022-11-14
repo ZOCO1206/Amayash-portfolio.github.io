@@ -1,2 +1,2 @@
 # Amayash_portfolio.github.io
-My Portfolio
+Link to my portfolio - https://zoco1206.github.io/Amayash-portfolio.github.io/
