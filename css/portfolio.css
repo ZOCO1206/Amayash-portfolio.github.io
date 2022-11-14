@@ -4,9 +4,11 @@
     box-sizing: border-box;
 }
 
+
 body{
-    width: 100%;
-    max-width: 1400px;
+    width: 67%; 
+    height: 67%;
+    max-width: 67%;
     display: block;
     margin: auto;
     min-height: 100vh;
@@ -95,6 +97,7 @@ body{
     top: 0;
     transition: 1s;
     opacity: 0;
+    
 }
 
 .project-heading{
@@ -118,6 +121,7 @@ body{
 .project-card{
     height: 600px;
     position: relative;
+    display: flexbox;
 }
 
 .project-img{
@@ -252,7 +256,6 @@ body{
 .about-img-container{
     position: relative;
 }
-
 .about-info{
     color: #fff;
     opacity: 0.6;
@@ -288,7 +291,6 @@ body{
 /* timeline */
 
 .timeline{
-    display: block;
     width: 90%;
     margin: 100px auto;
 }
@@ -296,15 +298,15 @@ body{
 .timeline .heading{
     /* margin-bottom: 200px;
     margin-top: -400px;
+    font-size: 100px;
     width: 1000px;
     height: 90px;
-    font-size: 100px;
     color: rgb(172, 166, 166); */
     font-size: 100px;
     background: #979797;
     text-transform: capitalize;
     text-align: center;
-    margin-top: -400px;
+    margin-top: 0px;
     margin-bottom: 150px;
     color: #1a1a1a;
     background-clip: text;
